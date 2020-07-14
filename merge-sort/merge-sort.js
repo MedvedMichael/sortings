@@ -19,5 +19,5 @@ const merge = (arr1, arr2) => {
     }
     return result
 }
-const splitArray = (array) => [array.slice(0, Math.floor(array.length / 2)), array.slice(Math.ceil(array.length / 2))]
+const splitArray = (array) => [array.slice(0, Math.ceil(array.length / 2)), array.slice(Math.ceil(array.length / 2))]
 module.exports = mergesort
